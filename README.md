@@ -103,6 +103,9 @@ This repository is built on top of several open source projects.
 - [ASVspoof 2021 baseline repo](https://github.com/asvspoof-challenge/2021/tree/main/LA/Baseline-RawNet2)
 - [min t-DCF implementation](https://www.asvspoof.org/resources/tDCF_python_v2.zip)
 
+The repository for baseline RawGAT-ST model will be open
+-  https://github.com/eurecom-asp/RawGAT-ST-antispoofing
+
 ### References
 [1] AASIST: Audio Anti-Spoofing using Integrated Spectro-Temporal Graph Attention Networks
 ```bibtex
