@@ -1,6 +1,10 @@
 """
 Main script that trains, validates, and evaluates
-various models including AASIST
+various models including AASIST.
+
+AASIST
+Copyright (c) 2021-present NAVER Corp.
+MIT license
 """
 import argparse
 import json

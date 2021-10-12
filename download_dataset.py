@@ -1,3 +1,9 @@
+"""
+AASIST
+Copyright (c) 2021-present NAVER Corp.
+MIT license
+"""
+
 import os
 
 if __name__ == "__main__":
