@@ -15,7 +15,7 @@ pip install -r requirements.txt
   - gpu-driver: 418.67
 
 ### Data preparation
-We train/validate/evaluate AASIST using the ASVspoof 2019 logical access dataset.
+We train/validate/evaluate AASIST using the ASVspoof 2019 logical access dataset [4].
 ```
 python ./download_dataset.py
 ```
@@ -60,7 +60,7 @@ python main.py --eval --config ./config/AASIST.conf
 ```
 To evaluate AASIST-L [1]:
 - It shows `EER: 0.99%`, `min t-DCF: 0.0309`
-- Model has `85306` parameters
+- Model has `85,306` parameters
 ```
 python main.py --eval --config ./config/AASIST-L.conf
 ```
@@ -110,7 +110,7 @@ This repository is built on top of several open source projects.
 The repository for baseline RawGAT-ST model will be open
 -  https://github.com/eurecom-asp/RawGAT-ST-antispoofing
 
-The dataset we use is ASVspoof 2019
+The dataset we use is ASVspoof 2019 [4]
 - https://www.asvspoof.org/index2019.html
 
 ### References
@@ -118,7 +118,7 @@ The dataset we use is ASVspoof 2019
 ```bibtex
 @INPROCEEDINGS{Jung2021AASIST,
   author={Jung, Jee-weon and Heo, Hee-Soo and Tak, Hemlata and Shim, Hye-jin and Chung, Joon Son and Lee, Bong-Jin and Yu, Ha-Jin and Evans, Nicholas},
-  booktitle={arXiv}, 
+  booktitle={arXiv preprint arXiv:2110.01200}, 
   title={AASIST: Audio Anti-Spoofing using Integrated Spectro-Temporal Graph Attention Networks}, 
   year={2021},
   pages
@@ -128,7 +128,7 @@ The dataset we use is ASVspoof 2019
 ```bibtex
 @INPROCEEDINGS{Tak2021End,
   author={Tak, Hemlata and Patino, Jose and Todisco, Massimiliano and Nautsch, Andreas and Evans, Nicholas and Larcher, Anthony},
-  booktitle={IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}, 
+  booktitle={Proc. ICASSP}, 
   title={End-to-End anti-spoofing with RawNet2}, 
   year={2021},
   pages={6369-6373}
@@ -141,7 +141,18 @@ The dataset we use is ASVspoof 2019
   author={Tak, Hemlata and Jung, Jee-weon and Patino, Jose and Kamble, Madhu and Todisco, Massimiliano and Evans, Nicholas},
   title={{End-to-end spectro-temporal graph attention networks for speaker verification anti-spoofing and speech deepfake detection}},
   year=2021,
-  booktitle={Proc. 2021 Edition of the Automatic Speaker Verification and Spoofing Countermeasures Challenge},
+  booktitle={Proc. 2021 ASVSpoof Challenge},
   pages={1--8},
   doi={10.21437/ASVSPOOF.2021-1}
+```
+
+[4] End-to-end spectro-temporal graph attention networks for speaker verification anti-spoofing and speech deepfake detection
+```bibtex
+@inproceedings{todisco2019asvspoof,
+  author={Todisco, Massimiliano and Wang, Xin and Vestman, Ville and Sahidullah, Md and Delgado, Hector and Nautsch, Andreas and Yamagishi, Junichi and Evans, Nicholas and Kinnunen, Tomi and Lee, Kong Aik},
+  title={ASVspoof 2019: Future Horizons in Spoofed and Fake Audio Detection},
+  booktitle={Proc. Interspeech},
+  pages={1008--1012},
+  year={2019}
+}
 ```
