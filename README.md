@@ -19,6 +19,10 @@ We train/validate/evaluate AASIST using the ASVspoof 2019 logical access dataset
 ```
 python ./download_dataset.py
 ```
+Manual preparation is available via 
+- ASVspoof2019 dataset: https://datashare.ed.ac.uk/handle/10283/3336
+  1. Download `LA.zip` and unzip it
+  2. Set your dataset directory in the configuration file
 
 ### Training 
 The `main.py` includes train/validation/evaluation.
@@ -105,6 +109,9 @@ This repository is built on top of several open source projects.
 
 The repository for baseline RawGAT-ST model will be open
 -  https://github.com/eurecom-asp/RawGAT-ST-antispoofing
+
+The dataset we use is ASVspoof 2019
+- https://www.asvspoof.org/index2019.html
 
 ### References
 [1] AASIST: Audio Anti-Spoofing using Integrated Spectro-Temporal Graph Attention Networks
