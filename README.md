@@ -144,13 +144,15 @@ The dataset we use is ASVspoof 2019 [4]
   pages={1--8}
 ```
 
-[4] ASVspoof 2019: Future Horizons in Spoofed and Fake Audio Detection
+[4] ASVspoof 2019: A large-scale public database of synthesized, converted and replayed speech
 ```bibtex
-@inproceedings{todisco2019asvspoof,
-  author={Todisco, Massimiliano and Wang, Xin and Vestman, Ville and Sahidullah, Md and Delgado, Hector and Nautsch, Andreas and Yamagishi, Junichi and Evans, Nicholas and Kinnunen, Tomi and Lee, Kong Aik},
-  booktitle={Proc. Interspeech},
-  title={ASVspoof 2019: Future Horizons in Spoofed and Fake Audio Detection},
-  year={2019}
-  pages={1008--1012},
+@article{wang2020asvspoof,
+  title={ASVspoof 2019: A large-scale public database of synthesized, converted and replayed speech},
+  author={Wang, Xin and Yamagishi, Junichi and Todisco, Massimiliano and Delgado, H{\'e}ctor and Nautsch, Andreas and Evans, Nicholas and Sahidullah, Md and Vestman, Ville and Kinnunen, Tomi and Lee, Kong Aik and others},
+  journal={Computer Speech \& Language},
+  volume={64},
+  pages={101114},
+  year={2020},
+  publisher={Elsevier}
 }
 ```
