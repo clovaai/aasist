@@ -300,11 +300,11 @@ class Model(nn.Module):
         self.gru.flatten_parameters()
         x, _ = self.gru(x)
         x = x[:, -1, :]
-        x = self.fc1_gru(x)
-        x = self.fc2_gru(x)
+        last_hidden = self.fc1_gru(x)
+        x = self.fc2_gru(last_hidden)
         output = self.logsoftmax(x)
 
-        return output
+        return last_hidden, output
 
     def _make_attention_fc(self, in_features, l_out_features):
 

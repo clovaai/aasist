@@ -604,4 +604,4 @@ class Model(nn.Module):
         last_hidden = self.drop(last_hidden)
         output = self.out_layer(last_hidden)
 
-        return output
+        return last_hidden, output

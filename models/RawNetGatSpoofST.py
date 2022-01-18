@@ -353,4 +353,4 @@ class Model(nn.Module):
         proj_ST = self.proj_ST(pool_ST).flatten(1)
         output = self.out_layer(proj_ST)
 
-        return output
+        return proj_ST, output

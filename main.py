@@ -303,7 +303,7 @@ def produce_evaluation_file(
     for batch_x, utt_id in data_loader:
         batch_x = batch_x.to(device)
         with torch.no_grad():
-            batch_out = model(batch_x)
+            _, batch_out = model(batch_x)
             batch_score = (batch_out[:, 1]).data.cpu().numpy().ravel()
         # add outputs
         fname_list.extend(utt_id)
@@ -340,7 +340,7 @@ def train_epoch(
         ii += 1
         batch_x = batch_x.to(device)
         batch_y = batch_y.view(-1).type(torch.int64).to(device)
-        batch_out = model(batch_x, Freq_aug=str_to_bool(config["freq_aug"]))
+        _, batch_out = model(batch_x, Freq_aug=str_to_bool(config["freq_aug"]))
         batch_loss = criterion(batch_out, batch_y)
         running_loss += batch_loss.item() * batch_size
         optim.zero_grad()
