@@ -9,7 +9,7 @@ This repository provides the overall framework for training and evaluating audio
 pip install -r requirements.txt
 ```
 - Our environment (for GPU training)
-  - Based on a docker image: `pytorch:1.6.0-cuda10.1-cudnn7-runtime`
+  - Based on a docker image: `pytorch:1.6.0-cuda13.1-cudnn7-runtime`
   - GPU: 1 NVIDIA Tesla V100
     - About 16GB is required to train AASIST using a batch size of 24
   - gpu-driver: 418.67

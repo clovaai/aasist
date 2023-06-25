@@ -1,0 +1,38 @@
+Create environment
+    conda create -n aasist_env python=3.10 anaconda
+    conda activate aasist_env
+
+pip install -r requirements.txt
+pip install tensorboard
+pip install torch torchvision torchaudio
+
+python main.py --config ./config/AASIST-L.conf
+
+
+
+
+Training AASIST-L for 20 epochs on ASVspoof 2019 dataset.
+	Scores saved to exp_result/LA_AASIST-L_ep20_bs24/eval_scores_using_best_dev_model.txt
+
+Results:
+CM SYSTEM
+	EER		= 2.977465399 % (Equal error rate for countermeasure)
+
+TANDEM
+	min-tDCF		= 0.081638726
+
+BREAKDOWN CM SYSTEM
+	EER A07		= 1.083123262 % (Equal error rate for A07
+	EER A08		= 1.140840679 % (Equal error rate for A08
+	EER A09		= 0.105259823 % (Equal error rate for A09
+	EER A10		= 1.368333432 % (Equal error rate for A10
+	EER A11		= 0.709626376 % (Equal error rate for A11
+	EER A12		= 3.049025150 % (Equal error rate for A12
+	EER A13		= 0.424416206 % (Equal error rate for A13
+	EER A14		= 1.059352059 % (Equal error rate for A14
+	EER A15		= 1.303817918 % (Equal error rate for A15
+	EER A16		= 2.560093430 % (Equal error rate for A16
+	EER A17		= 4.824801681 % (Equal error rate for A17
+	EER A18		= 8.101319583 % (Equal error rate for A18
+	EER A19		= 3.212002389 % (Equal error rate for A19
+Exp FIN. EER: 2.977, min t-DCF: 0.08164

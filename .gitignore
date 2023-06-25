@@ -1,7 +1,7 @@
 # etc
 _*
 .*
-exp_result/
+# exp_result/
 config/
 models/
 depreciated/

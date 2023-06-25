@@ -1,0 +1,420 @@
+Device: cuda
+no. model params:85306
+no. training files: 27848
+no. validation files: 25146
+Start training epoch000
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.66449, dev_eer: 18.051
+Start training epoch001
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.39824, dev_eer: 7.524
+Start training epoch002
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.26120, dev_eer: 5.189
+Start training epoch003
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.21803, dev_eer: 4.774
+Start training epoch004
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.18894, dev_eer: 4.706
+Start training epoch005
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.16737, dev_eer: 3.670
+Start training epoch006
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.15533, dev_eer: 2.816
+Start training epoch007
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.13534, dev_eer: 2.521
+Start training epoch008
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.12477, dev_eer: 2.446
+Start training epoch009
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.11509, dev_eer: 3.409
+Start training epoch010
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.10618, dev_eer: 4.115
+Start training epoch011
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.09690, dev_eer: 1.671
+Start training epoch012
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.09007, dev_eer: 2.151
+Start training epoch013
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.08207, dev_eer: 3.048
+Start training epoch014
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.07943, dev_eer: 1.708
+Start training epoch015
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.07566, dev_eer: 1.701
+Start training epoch016
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.06788, dev_eer: 2.780
+Start training epoch017
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.06288, dev_eer: 1.928
+Start training epoch018
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.06339, dev_eer: 1.519
+Start training epoch019
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.05771, dev_eer: 1.742
+Start training epoch020
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.04988, dev_eer: 1.408
+Start training epoch021
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.04947, dev_eer: 1.038
+Start training epoch022
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.04935, dev_eer: 0.890
+best model find at epoch 22
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/eval_scores_cs3_cs3.txt
+epoch022, best eer, 1.7298%
+Saving epoch 22 for swa
+Start training epoch023
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.04290, dev_eer: 0.927
+Start training epoch024
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.04165, dev_eer: 1.186
+Start training epoch025
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.03794, dev_eer: 1.671
+Start training epoch026
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.03469, dev_eer: 1.260
+Start training epoch027
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.04074, dev_eer: 0.963
+Start training epoch028
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.03202, dev_eer: 1.744
+Start training epoch029
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.03730, dev_eer: 1.265
+Start training epoch030
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.03349, dev_eer: 1.186
+Start training epoch031
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.03051, dev_eer: 0.963
+Start training epoch032
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.02690, dev_eer: 2.553
+Start training epoch033
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.02529, dev_eer: 1.149
+Start training epoch034
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.02664, dev_eer: 1.487
+Start training epoch035
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.02631, dev_eer: 1.706
+Start training epoch036
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.02583, dev_eer: 1.631
+Start training epoch037
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.02696, dev_eer: 1.188
+Start training epoch038
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.02476, dev_eer: 1.783
+Start training epoch039
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.02362, dev_eer: 1.306
+Start training epoch040
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.01956, dev_eer: 1.260
+Start training epoch041
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.02021, dev_eer: 2.187
+Start training epoch042
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.01933, dev_eer: 1.706
+Start training epoch043
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.01841, dev_eer: 1.706
+Start training epoch044
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.01834, dev_eer: 1.372
+Start training epoch045
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.01945, dev_eer: 1.519
+Start training epoch046
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.01950, dev_eer: 1.817
+Start training epoch047
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.01666, dev_eer: 0.963
+Start training epoch048
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.01388, dev_eer: 1.483
+Start training epoch049
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.01514, dev_eer: 0.665
+best model find at epoch 49
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/eval_scores_cs3_cs3.txt
+epoch049, 
+Saving epoch 49 for swa
+Start training epoch050
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.01592, dev_eer: 1.483
+Start training epoch051
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.01264, dev_eer: 1.038
+Start training epoch052
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.01281, dev_eer: 1.631
+Start training epoch053
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.01204, dev_eer: 1.104
+Start training epoch054
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.01515, dev_eer: 1.885
+Start training epoch055
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.01433, dev_eer: 0.963
+Start training epoch056
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.00978, dev_eer: 1.476
+Start training epoch057
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.01045, dev_eer: 1.045
+Start training epoch058
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.01010, dev_eer: 1.149
+Start training epoch059
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.00814, dev_eer: 1.631
+Start training epoch060
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.01003, dev_eer: 1.413
+Start training epoch061
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.00818, dev_eer: 0.927
+Start training epoch062
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.00946, dev_eer: 1.483
+Start training epoch063
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.00916, dev_eer: 1.038
+Start training epoch064
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.00865, dev_eer: 2.001
+Start training epoch065
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.00835, dev_eer: 1.229
+Start training epoch066
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.00694, dev_eer: 0.852
+Start training epoch067
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.00872, dev_eer: 1.229
+Start training epoch068
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.00779, dev_eer: 1.074
+Start training epoch069
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.00774, dev_eer: 1.038
+Start training epoch070
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.00638, dev_eer: 1.297
+Start training epoch071
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.00679, dev_eer: 1.667
+Start training epoch072
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.00638, dev_eer: 1.186
+Start training epoch073
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.00564, dev_eer: 1.224
+Start training epoch074
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.00443, dev_eer: 1.553
+Start training epoch075
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.00527, dev_eer: 1.408
+Start training epoch076
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.00487, dev_eer: 0.852
+Start training epoch077
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.00538, dev_eer: 1.038
+Start training epoch078
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.00569, dev_eer: 1.113
+Start training epoch079
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.00485, dev_eer: 1.483
+Start training epoch080
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.00535, dev_eer: 1.002
+Start training epoch081
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.00301, dev_eer: 1.038
+Start training epoch082
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.00553, dev_eer: 1.186
+Start training epoch083
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.00335, dev_eer: 1.519
+Start training epoch084
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.00361, dev_eer: 1.297
+Start training epoch085
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.00441, dev_eer: 1.260
+Start training epoch086
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.00512, dev_eer: 1.113
+Start training epoch087
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.00489, dev_eer: 1.335
+Start training epoch088
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.00380, dev_eer: 1.149
+Start training epoch089
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.00381, dev_eer: 1.002
+Start training epoch090
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.00404, dev_eer: 0.927
+Start training epoch091
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.00499, dev_eer: 1.224
+Start training epoch092
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.00303, dev_eer: 1.260
+Start training epoch093
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.00316, dev_eer: 1.113
+Start training epoch094
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.00241, dev_eer: 1.033
+Start training epoch095
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.00391, dev_eer: 1.224
+Start training epoch096
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.00349, dev_eer: 1.002
+Start training epoch097
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.00368, dev_eer: 1.149
+Start training epoch098
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.00242, dev_eer: 1.215
+Start training epoch099
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/metrics/dev_score.txt
+DONE.
+Loss:0.00337, dev_eer: 1.295
+Start final evaluation
+Scores saved to exp_result/CS3_AASIST-L_ep100_bs24/eval_scores_cs3_cs3.txt
+Traceback (most recent call last):
+  File "/data/rishith/aasist/1_multistyle_combinedSet3_training.py", line 357, in <module>
+    main()
+  File "/data/rishith/aasist/1_multistyle_combinedSet3_training.py", line 218, in main
+    config["asv_score_path"],
+KeyError: 'asv_score_path'
